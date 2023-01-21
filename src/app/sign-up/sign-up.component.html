@@ -1,0 +1,33 @@
+<!-- <div class="container">
+    <div class="main">
+        <form class="form">
+            <label>Email :</label>
+            <input type="text" matInput [formControl]="usernameFormControl" #username name="username">
+            <label>Password :</label>
+            <input type="password" matInput [formControl]="passwordFormControl" #password name="name">
+
+            <input type="button" class="btn btnPrimary" value="Sign Up" (click)="handleSubmitOnClick()" />
+
+        </form>
+    </div>
+</div> -->
+
+
+
+<form style="border:1px solid #ccc">
+    <div class="container">
+
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" matInput [formControl]="usernameFormControl" #username name="username">
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" matInput [formControl]="passwordFormControl" #password name="name">
+
+        <div class="clearfix">
+            <button type="button" class="signupbtn" value="Sign Up" (click)="handleSubmitOnClick()">
+              Sign Up
+            </button>
+        </div>
+    </div>
+</form>

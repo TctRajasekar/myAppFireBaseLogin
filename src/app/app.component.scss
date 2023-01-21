@@ -1,0 +1,52 @@
+.header-spacer {
+    flex: 1 1 auto;
+}
+
+.headertoolbar {
+    height: 64px;
+    padding: 0px 16px;
+    // position: fixed;
+    // z-index: 99;
+    // top: 0px;
+    .header-app-name {
+        .clsheaderIcon {
+            background-color: #fff;
+            padding: 6px 8px 0px;
+            border-radius: 50px;
+            margin: 0px 5px;
+            box-shadow: inset 1px 1px 4px 1px rgba(63, 81, 181, 0.4);
+        }
+    }
+    .right-aligh-text {
+        flex: 1 1 auto;
+    }
+    app-toolbar-user {
+        height: 100%;
+    }
+}
+
+.headerbtn {
+    color: #c2185b;
+    border: 1px solid transparent;
+    margin: 0px 5px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.headerbtn.btnactive {
+    border: 1px solid #fff;
+    background-color: rgba(232, 232, 232, 0.5);
+    color: #c2185b;
+}
+
+.headerbtn:hover {
+    // background-color: #808080;
+    background-color: rgba(232, 232, 232, 0.5);
+    border: 1px solid #fff;
+}
+
+.headerMenuDiv {
+    // display: flex;
+    flex-direction: column;
+    flex: 0 1 100%;
+}
